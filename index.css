@@ -23,3 +23,6 @@
     justify-content:right;
     background-color: papayawhip;
 }
+.section-3{
+    flex-grow:4;/*this is for section-3 box will become bigger than other two(flex-grow=4)*/
+}
