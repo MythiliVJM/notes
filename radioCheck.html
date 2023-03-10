@@ -1,0 +1,29 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+      <title>Java script practice's</title>
+      <script>
+        
+        // this is single line comment
+        /* this will be multi line 
+        comments in js */
+        function fun1(){
+          var radio1= document.getElementById("rd1");  // get element by id is used for refer the value using id.
+          var radio2= document.getElementById("rd2");
+          if(radio1.checked==true)                     // checked is for checking in radio buttons.
+              alert("The Option selected is "+rd1.value);
+          else if(radio2.checked==true)
+              alert("The Option selected is "+rd2.value);
+          else
+              alert("please click is any one of the option's");
+        }
+
+      </script>
+    </head>
+    <body>
+       <input type="radio" id="rd1" value="option1">Option1</input><br><br>
+       <input type="radio" id="rd2" value="option2">Option2</input><br><br>
+       <button id="button1" onclick="fun1()">Submit</button>
+    
+    </body>
+</html>
